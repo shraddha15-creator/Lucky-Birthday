@@ -25,11 +25,11 @@ body{
     border-radius: 20px;
     -webkit-border-radius: 4px; 
     border-radius: 4px; 
-    background: #e2c9c9;
-    -webkit-box-shadow: 5px 5px 11px #786363,
-    -5px -5px 11px #ffdddd;
-    box-shadow: 5px 5px 11px #786363,
-    -5px -5px 11px #ffdddd;
+    background: #777070;
+    -webkit-box-shadow: 5px 5px 11px #292929,
+    -5px -5px 11px #474646;
+    box-shadow: 5px 5px 11px #585858,
+    -5px -5px 11px #585858;
 }
 
 label{
@@ -47,11 +47,24 @@ label{
 }
 
 .container button{
-    background-color: rgb(145, 93, 93);
+    background-color: rgb(68, 48, 48);
+    color: white;
     font-size: 1.8rem;
     margin: 25px 50px 75px;
     padding: 1rem 2rem;
     border-radius: 10px;
     border: 2px solid rgb(0, 0, 34);
     cursor: pointer;
+}
+
+.footer {
+    margin: 1rem 2rem 0rem 2rem;
+}
+
+.footer a {
+    padding-inline: 1rem;
+    font-size: 50px;
+    color: rgb(24, 4, 4);
+    text-decoration: none;
+
 }
